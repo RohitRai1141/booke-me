@@ -1,0 +1,187 @@
+/* Global body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; /* Modern, clean font */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark gray text color for readability */
+}
+
+/* Code styling */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Small image styling */
+.smallimg {
+  height: 200px;
+  width: 100% !important;
+  border-radius: 8px !important;
+  object-fit: cover; /* Ensures images don't stretch */
+}
+
+/* Main heading styling */
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* Button styling */
+.btn {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #ffffff; /* White background on hover */
+  color: #000000; /* Black text on hover */
+  transform: translateY(-3px);
+  border: 1px solid #000000; /* Add border on hover */
+}
+
+/* Box shadow effect */
+.bs {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.bs:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Big image styling */
+.bigimg {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover; /* Ensures the image is contained properly */
+}
+
+/* Styling for form inputs */
+input, select {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #ffffff; /* White background */
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+input:focus, select:focus {
+  border-color: #000000; /* Black border on focus */
+  outline: none;
+}
+
+/* Centered and responsive layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header section styles */
+.App-header {
+  background-color: #000000; /* Black header */
+  color: white;
+  padding: 80px 20px 40px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.App-header .main-heading {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+.App-header .intro-text {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: 500;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-btn {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.cta-btn:hover {
+  background-color: #ffffff; /* White background on hover */
+  color: #000000; /* Black text on hover */
+  border: 1px solid #000000; /* Add black border on hover */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .bs {
+    padding: 20px;
+  }
+
+  .App-header {
+    padding: 60px 20px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .btn, .cta-btn {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}

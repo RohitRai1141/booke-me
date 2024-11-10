@@ -1,0 +1,56 @@
+[
+  {
+    "name": "I-11 COE LAB",
+    "imageurls": [
+      "https://media.istockphoto.com/id/506340238/photo/pc-room.webp?s=2048x2048&w=is&k=20&c=4W-t_aaU2EV4oGNQ3jntdOnScTcr0H3PEAeOg7V_BlI=",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/56303/medium/06883e94ec59702e.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/56303/medium/91dead74a5dffa61.jpg"
+    ],
+    "rentperday": 1500,
+    "type": "Lab",
+    "maxcount": 120,
+    "Computers": 120,
+    "currentbookings": [],
+    "description": "Bro really needed description for this lab"
+  },
+  {
+    "name": "A-12 Networks Lab",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/105649/large/8e80e24a5496eb80.jpg"
+    ],
+    "rentperday": 1800,
+    "type": "Lab",
+    "maxcount": 60,
+    "Computers": 60,
+    "currentbookings": [],
+    "description": "Bro really needed description for this lab"
+  },
+  {
+    "name": "F-32 CSE-B",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/107625/large/4488071a59d38cc5.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/107625/large/d452b4897a767f6b.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/107625/large/8f690e54761344e0.jpg"
+    ],
+    "rentperday": 2000,
+    "type": "Class",
+    "maxcount": 60,
+    "Computers": null,
+    "currentbookings": [],
+    "description": "Bro really needed description for this class"
+  },
+  {
+    "name": "F-31 CSE-A",
+    "imageurls": [
+      "https://images.oyoroomscdn.com/uploads/hotel_image/38668/large/414e401312ad45a7.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/38668/large/d24b920cfdddeecb.jpg",
+      "https://images.oyoroomscdn.com/uploads/hotel_image/38668/large/58025558878fa4ec.jpg"
+    ],
+    "rentperday": 1800,
+    "type": "Class",
+    "maxcount": 60,
+    "Computers": null,
+    "currentbookings": [],
+    "description": "Bro really needed description for this class"
+  }
+]
